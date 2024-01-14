@@ -1,0 +1,89 @@
+body {
+  background-color: #f76666;
+}
+body main {
+  padding: 4rem 4rem 10rem;
+  background-color: #f76666;
+}
+body main h1 {
+  color: white;
+}
+body main .copy-grande {
+  margin: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+body .main-contacto {
+  padding: 11rem 4rem 20.88rem;
+}
+body .main-contacto .contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .main-contacto .contacto h1 {
+  padding-bottom: 1rem;
+}
+body .main-contacto .contacto .datos {
+  padding-top: 1rem;
+}
+
+footer {
+  height: 5rem;
+  border: 1px solid black;
+  background-color: black;
+}
+footer h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.8rem;
+}
+
+.card-group {
+  padding: 3rem 0.1rem;
+}
+
+.blog img {
+  position: relative;
+  left: 70%;
+  width: 30%;
+}
+.blog div {
+  border: 1px solid black;
+  margin: 3rem;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+@media (width >= 992px) {
+  .div-servicios, .servicios-inicio {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
+  .div-servicios div, .servicios-inicio div {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .div-servicios div img, .servicios-inicio div img {
+    width: 30%;
+    position: relative;
+    left: 35%;
+    padding-bottom: 1rem;
+  }
+}
+@media (width <= 992px) {
+  .div-servicios div, .servicios-inicio div {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .div-servicios div img, .servicios-inicio div img {
+    width: 15%;
+    padding-bottom: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */
